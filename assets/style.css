@@ -33,3 +33,7 @@
 .m-t-2 {
     margin-top: 2rem;
 }
+
+article h3 {
+    border-top: 1rem solid lightskyblue;
+}
