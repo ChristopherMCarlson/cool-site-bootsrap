@@ -10,5 +10,61 @@
 </head>
 <body>
     
+    <!--
+        DO RULES
+
+        1. Use containers
+        2. Rows are the only children of containers
+        3. Columns are the only children of rows
+        4. Columns can be used as containers
+        5. Always satisfy the 12 columns
+
+
+        DON'T RULES
+        1. Not use containers
+        2. Never use a row outside of a container
+        2.1 Never make a row a child of a row
+        3. Never use a column outside of a row
+        4. DO NOT TOUCH THE BOX MODEL AT ANY OF THESE LAYERS
+        
+    -->
+    <div class="container-fluid">    
+        <header class="row blue head-size">
+            <div class="col-sm-12">
+                <h1 class="text-center text-white">Hey there I have a cool site</h1>
+            </div>
+        </header>
+        <section class="row content-size">
+            <div class="col-sm-6 offset-sm-2">
+                <article class="m-t-2">
+                    <h3>Article Title</h3>
+                <div><p>
+                    Just think about these things in your mind - then bring them into your world. All you have to do is let your imagination go wild. You can do anything your heart can imagine. Just a happy little shadow that lives in there.
+                    <br>
+                    Little trees and bushes grow however makes them happy. You have to make those little noises or it won't work. Let all these little things happen. Don't fight them. Learn to use them.
+                    <br>        
+                    If you didn't have baby clouds, you wouldn't have big clouds. Learn when to stop. When things happen - enjoy them. They're little gifts. A tree cannot be straight if it has a crooked trunk.
+                </p></div>
+                </article>
+            </div>
+            <div class="col-sm-2 offset-sm-2">
+                <div>
+                    <div class="m-t-2">
+                        <img src="//placehold.it/100x100" alt="">
+                    </div>
+                    <div class="m-t-1">
+                        <h5>Realted Article</h5>
+                        <p>Snippet</p>
+                        <div>
+                            <button class="btn btn-info">Click Me!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="row blue foot-size">
+        </footer>
+    </div>
+        
 </body>
 </html>

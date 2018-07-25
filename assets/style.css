@@ -1,0 +1,35 @@
+/* Debuging Only */
+/* * {
+    outline: 1px solid red;
+} */
+/* Debugging Only */
+.blue {
+    background-color: blue;
+}
+
+/* .height-100 {
+    height: 100px;
+} */
+
+.bg-size {
+    height: 100vh;
+}
+
+.head-size {
+    height: 10vh;
+}
+
+.content-size {
+    height: 80vh;
+}
+
+.foot-size {
+    height: 10vh;
+}
+
+.m-t-1 {
+    margin-top: 1rem;
+}
+.m-t-2 {
+    margin-top: 2rem;
+}
